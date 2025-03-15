@@ -1,40 +1,38 @@
-
 <h1 align="center">Comenzando y Conociendo HTML5 Parte 1</h1>
 <p align="center"> Curso HTML5</p>
 <p align="center">  Instructor: Juan Diaz</p>
 <p align="center">  Alumn: David Bernal Diaz</p>
 
-
 <p align="center"> Link del <a href="https://www.pildorasinformaticas.es/course/html-5/curriculum/"> Curso</a> </p>  
 <br>
 <p align="center"><img src="https://github.com/davidber0102/PI-HTML5-Parte1/blob/master/img/logo-grande_b2.png"/></p> 
 
-### Descripcion
+Descripcion
 _Primera parte de varias de este curso con nombre de HTML5, emitodo por video tutoriales_
 
-## Tabla de contenidos:
+Tabla de contenidos:
 ---
 - [Comenzando](#Comenzando)
-- [Descripción y contexto](#descripción-y-contexto)
+- [badges](#badges)
+- [Descripción y contexto](Descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
 - [Cómo contribuir](#cómo-contribuir)
 - [Código de conducta](#código-de-conducta)
-- [Autor/es](#autores)
+- [Autores](#autores)
 - [Información adicional](#información-adicional)
 - [Licencia](#licencia)
-- [Limitación de responsabilidades - Solo BID](#limitación-de-responsabilidades)
 
 ## Comenzando 🚀
 ---
 Es común en muchos repositorios open source el uso de badges o escudos para dar visbilidad el uso de microservicios, licencias, descargas, etc. Recomendamos revisar la iniciativa https://shields.io/ donde según consideres necesario podrás generar badges para tu repo. 
 
-### Ejemplos de badges
-- code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
+## badges
+  
+- ![GitHub](https://img.shields.io/github/license/dropbox/dropbox-sdk-java)
+- ![Badge Release](https://img.shields.io/badge/Release%20Date:-Junio-blue)
+- ![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-blue)
 
-### Badges que solicitamos:
----
-En la iniciativa Código para el Desarrollo solicitamos a los equipos que suman sus herramientas al catálogo de sumar el badge generado por el uso del microservicio de evaluación estática de código SonarCloud.
 
 ## Descripción y contexto
 ---
@@ -45,37 +43,42 @@ Los siguientes titulos son los que contiene este proyecto:
 - HTML 5. Conceptos básicos. Vídeo 2
 - HTML 5. Nuevos elementos de estructura en HTML5. Vídeo 3
 - HTML 5. Estructura del cuerpo y nuevos elementos. Vídeo 4
--  	HTML 5. Figure, Figcaption y nuevos elementos. Vídeo 5
+- HTML 5. Figure, Figcaption y nuevos elementos. Vídeo 5
 
 ## Guía de usuario
----
-Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
+A continuacion se explica brevemente los conceptos de html5, css y javascript
+- HTML5: El HyperText Markup Language (HTML) es el lenguaje de etiquetas de la World Wide Web. Es uno de los principales componentes de la Plataforma Web Abierta. La primera versión de HTML fue descrito por Tim      Berners-Lee a finales de 1991, la Recomendación del W3C actual de HTML es HTML 4.01, publicado en diciembre de 1999 Hay un trabajo sin embargo intensivo para definir su próxima versión, HTML5.
+- CSS (Cascading Style Sheets) le permite crear páginas web de gran aspecto.
  	
 ## Guía de instalación
----
-Paso a paso de cómo instalar la herramienta digital. En esta sección es recomendable explicar la arquitectura de carpetas y módulos que componen el sistema.
-
-Según el tipo de herramienta digital, el nivel de complejidad puede variar. En algunas ocasiones puede ser necesario instalar componentes que tienen dependencia con la herramienta digital. Si este es el caso, añade también la siguiente sección.
+Paso a paso de cómo instalar  y / o consultar alguna herramienta digital o pagina web. En esta sección se explica la arquitectura de carpetas y módulos que componen el sistema.
+  - /css: archivo de estilos
+  - /img:  imagenes ocupadas en la plataforma web
+  - /: archivo html donde viene la estructura o maquetacion de este ejercicio web
 
 La guía de instalación debe contener de manera específica:
-- Los requisitos del sistema operativo para la compilación (versiones específicas de librerías, software de gestión de paquetes y dependencias, SDKs y compiladores, etc.).
-- Las dependencias propias del proyecto, tanto externas como internas (orden de compilación de sub-módulos, configuración de ubicación de librerías dinámicas, etc.).
-- Pasos específicos para la compilación del código fuente y ejecución de tests unitarios en caso de que el proyecto disponga de ellos.
+- Tener instalado Git
+- Tener instaldo cualquier editor de codigo.
+- Para este proyecto solo se debe contener cualquiera de los navegadores de internet, ademas de internet estable
+  - Mozila FireFox
+  - Chrome
+  - Internet Explorer
+  - Safari
+  - Opera
 
 ### Dependencias
-Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
+Para contar con la copia del codigo de este ejercicio, es necesario utilizar comandos de git,
+Debes Clonar el repositorio creado con el siguiente comando dentro de la carpeta que desees:
+```bash
+   git clone (https://github.com/davidber0102/PI-HTML5-Parte1)
+   ```
 
-    Puedes usar este estilo de letra diferenciar los comandos de instalación.
 
 ## Cómo contribuir
----
 Esta sección explica a desarrolladores cuáles son las maneras habituales de enviar una solicitud de adhesión de nuevo código (“pull requests”), cómo declarar fallos en la herramienta y qué guías de estilo se deben usar al escribir más líneas de código. También puedes hacer un listado de puntos que se pueden mejorar de tu código para crear ideas de mejora.
 
 ## Código de conducta 
----
-El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. Es una buena práctica para crear un ambiente de respeto e inclusión en las contribuciones al proyecto. 
-
-La plataforma Github premia y ayuda a los repositorios dispongan de este archivo. Al crear CODE_OF_CONDUCT.md puedes empezar desde una plantilla sugerida por ellos. Puedes leer más sobre cómo crear un archivo de Código de Conducta (aquí)[https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/]
+El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. Es una buena práctica para crear un ambiente de respeto e inclusión en las contribuciones al proyecto.  La plataforma Github premia y ayuda a los repositorios dispongan de este archivo. Al crear CODE_OF_CONDUCT.md puedes empezar desde una plantilla sugerida por ellos. Puedes leer más sobre cómo crear un archivo de Código de Conducta (aquí)[https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/]
 
 ## Autores ✒️
 * **David Bernal Diaz** - *Trabajo Inicial* - [DavidBernal](https://github.com/davidber0102)
@@ -83,19 +86,9 @@ La plataforma Github premia y ayuda a los repositorios dispongan de este archivo
 <p align="left">
 <a href="https://linkedin.com/in/www.linkedin.com/in/gi-david-bernal-diaz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/gi-david-bernal-diaz" height="30" width="40" /></a>
 </p>
+
 ## Información adicional
----
-Esta es la sección que permite agregar más información de contexto al proyecto como alguna web de relevancia, proyectos similares o que hayan usado la misma tecnología.
 
 
 ## Licencia 
----
-La licencia especifica los permisos y las condiciones de uso que el desarrollador otorga a otros desarrolladores que usen y/o modifiquen la herramienta digital.
-
-Incluye en esta sección una nota con el tipo de licencia otorgado a esta herramienta digital. El texto de la licencia debe estar incluído en un archivo *LICENSE.md* o *LICENSE.txt* en la raíz del repositorio.
-
-Si desconoces qué tipos de licencias existen y cuál es la mejor para cada caso, te recomendamos visitar la página https://choosealicense.com/.
-
-Si la herramienta que estás publicando con la iniciativa Código para el Desarrollo ha sido financiada por el BID, te invitamos a revisar la [licencia oficial del banco para publicar software](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/LICENSE.md)
-
-defectos en la Herramienta Digital, o la pérdida o inexactitud de los datos de cualquier tipo. Lo anterior incluye los gastos o daños asociados a fallas de comunicación y/o fallas de funcionamiento de computadoras, vinculados con la utilización de la Herramienta Digital.
+La licencia especifica los permisos y las condiciones de uso que el desarrollador otorga a otros desarrolladores que usen y/o modifiquen la herramienta digital. Incluye en esta sección una nota con el tipo de licencia otorgado a esta herramienta digital. El texto de la licencia debe estar incluído en un archivo *LICENSE.md* o *LICENSE.txt* en la raíz del repositorio. Si desconoces qué tipos de licencias existen y cuál es la mejor para cada caso, te recomendamos visitar la página https://choosealicense.com/.
