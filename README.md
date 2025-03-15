@@ -28,11 +28,17 @@ Tabla de contenidos:
 Es común en muchos repositorios open source el uso de badges o escudos para dar visbilidad el uso de microservicios, licencias, descargas, etc. Recomendamos revisar la iniciativa https://shields.io/ donde según consideres necesario podrás generar badges para tu repo. 
 
 ## badges
-  
-- ![GitHub](https://img.shields.io/github/license/dropbox/dropbox-sdk-java)
-- ![Badge Release](https://img.shields.io/badge/Release%20Date:-Junio-blue)
-- ![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-blue)
 
+   <p align="left">   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">   </p>
+  
+ ![GitHub](https://img.shields.io/github/license/dropbox/dropbox-sdk-java)
+ ![Badge Release](https://img.shields.io/badge/Release%20Date:-Junio-blue)
+ ![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-blue)
+
+ - [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+ - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ - ![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white)
 
 ## Descripción y contexto
 ---
@@ -57,14 +63,13 @@ Paso a paso de cómo instalar  y / o consultar alguna herramienta digital o pagi
   - /: archivo html donde viene la estructura o maquetacion de este ejercicio web
 
 La guía de instalación debe contener de manera específica:
-- Tener instalado Git
+- Tener instalado Git [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
 - Tener instaldo cualquier editor de codigo.
 - Para este proyecto solo se debe contener cualquiera de los navegadores de internet, ademas de internet estable
-  - Mozila FireFox
-  - Chrome
-  - Internet Explorer
-  - Safari
-  - Opera
+  - Mozila FireFox [![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox&logoColor=white)](#)
+  - Chrome [![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?logo=GoogleChrome&logoColor=white)](#)
+  - Safari [![Safari](https://img.shields.io/badge/Safari-006CFF?logo=safari&logoColor=fff)](#)
+  - Opera [![Opera](https://img.shields.io/badge/Opera-FF1B2D?logo=Opera&logoColor=white)](#)
 
 ### Dependencias
 Para contar con la copia del codigo de este ejercicio, es necesario utilizar comandos de git,
